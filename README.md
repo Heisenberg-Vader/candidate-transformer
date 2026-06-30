@@ -142,7 +142,7 @@ hard-coded in Python.
 
 1. **Ghost candidate** (name, no email/phone) → quarantined, surfaced with a
    reason rather than risking a false merge.
-2. **Format divergence** — `(415) 555-0100` and `+1 415-555-0100` normalize to
+2. **Format divergence** — `(xxx) xxx-xxxx` and `+91 xxx-xxx-xxxx` normalize to
    one E.164 key; structurally invalid numbers are rejected.
 3. **Unknown config field** → caught by config validation before the run, with a
    clear message.
