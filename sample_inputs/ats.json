@@ -1,35 +1,35 @@
 [
   {
-    "name": "Ada Lovelace",
-    "emails": ["ada.lovelace@analytical.io"],
-    "phones": ["(415) 555-0100"],
-    "location": {"city": "San Francisco", "region": "CA", "country": "USA"},
+    "name": "Hussain Haidary",
+    "emails": ["hussain.haidary@example.in"],
+    "phones": ["+91 98765 43210"],
+    "location": {"city": "Bengaluru", "region": "KA", "country": "India"},
     "links": {
-      "linkedin": "https://linkedin.com/in/adalovelace",
-      "github": "https://github.com/ada-l"
+      "linkedin": "https://linkedin.com/in/heisenberg-vader",
+      "github": "https://github.com/heisenberg-vader"
     },
-    "headline": "Principal Software Engineer",
-    "years_experience": 12,
-    "skills": ["Python", "C++", "Machine Learning"],
+    "headline": "Student",
+    "years_experience": 0,
+    "skills": ["Python", "C++", "C#"],
     "experience": [
       {
-        "company": "Analytical Engines",
-        "title": "Principal Engineer",
-        "start": "2018-03",
+        "company": "King's College London",
+        "title": "Research Intern",
+        "start": "2025-06",
         "end": "Present",
-        "summary": "Leads the inference platform team."
+        "summary": "Research intern working on the systems group."
       }
     ],
     "education": [
-      {"institution": "University of London", "degree": "BSc",
-       "field": "Mathematics", "end_year": 2009}
+      {"institution": "PES University", "degree": "BTech",
+       "field": "Computer Science", "end_year": 2027}
     ]
   },
   {
-    "name": "Grace Hopper",
-    "emails": ["grace.hopper@navy.mil"],
-    "phones": ["+1 202-555-0199"],
-    "location": {"city": "Arlington", "region": "VA", "country": "United States"},
+    "name": "Wei Lin Tan",
+    "emails": ["wei.tan@example.sg"],
+    "phones": ["+65 8123 4567"],
+    "location": {"city": "Singapore", "region": null, "country": "Singapore"},
     "skills": ["COBOL", "Go"]
   }
 ]

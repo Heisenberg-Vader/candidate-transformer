@@ -40,7 +40,7 @@ flag is repeatable; pass it once per notes file:
     --notes sample_inputs/notes.txt \
     --notes sample_inputs/ghost_note.txt \
     --github sample_inputs/github.json \
-    --region GB \
+    --region IN \
     --out outputs/default.json
 ```
 

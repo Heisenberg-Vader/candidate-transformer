@@ -1,4 +1,4 @@
 candidate_name,email,mobile,city,country,role,yoe,skills
-Ada Lovelace,ada.lovelace@analytical.io,(415) 555-0100,San Francisco,USA,Staff Engineer,12,js;Python;k8s
-Alan Turing,alan.turing@bletchley.uk,+44 20 7946 0958,London,UK,Cryptanalyst,15,Go;Python
-Grace Hopper,grace.hopper@navy.mil,not-a-number,Arlington,USA,Rear Admiral,20,COBOL
+Hussain Haidary,hussain.haidary@example.in,+91 98765 43210,Bengaluru,India,Student,0,python;C++;c#
+Priya Sharma,priya.sharma@example.in,+91 91234 56780,Pune,India,Frontend Engineer,6,Go;Python
+Wei Lin Tan,wei.tan@example.sg,not-a-number,Singapore,Singapore,Backend Engineer,18,COBOL

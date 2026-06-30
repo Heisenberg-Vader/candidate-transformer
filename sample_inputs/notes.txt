@@ -1,6 +1,6 @@
-Name: Alan Turing
-Spoke with Alan today. Strong candidate. Reach him at
-alan.turing@bletchley.uk or on +44 20 7946 0958.
-His code is at https://github.com/aturing and he mentioned
+Name: Priya Sharma
+Spoke with Priya today. Strong candidate. Reach her at
+priya.sharma@example.in or on +91 91234 56780.
+Her code is at https://github.com/priya-dev and she mentioned
 extensive work in TypeScript lately.
 Skills: TypeScript, golang, Cryptography

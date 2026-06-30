@@ -1,16 +1,16 @@
 [
   {
-    "login": "ada-l",
-    "html_url": "https://github.com/ada-l",
-    "blog": "https://adalovelace.dev",
-    "bio": "Building reliable ML systems.",
-    "languages": ["Python", "Rust", "C++"]
+    "login": "heisenberg-vader",
+    "html_url": "https://github.com/heisenberg-vader",
+    "blog": "https://heisenberg-vader.dev",
+    "bio": "Student and research intern at King's College London.",
+    "languages": ["Python", "C++", "Rust"]
   },
   {
-    "login": "aturing",
-    "html_url": "https://github.com/aturing",
+    "login": "priya-dev",
+    "html_url": "https://github.com/priya-dev",
     "blog": "",
-    "bio": "Cryptography and theory of computation.",
+    "bio": "Cryptography and distributed systems.",
     "languages": ["Go", "Haskell", "TypeScript"]
   }
 ]
