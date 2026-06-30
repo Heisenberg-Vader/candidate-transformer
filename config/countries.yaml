@@ -1,0 +1,33 @@
+# Country-name -> ISO-3166 alpha-2 table read at runtime by normalize.py.
+# Keys are lower-cased; common informal names and the alpha-2/alpha-3 codes
+# themselves are included so an already-coded value round-trips cleanly.
+# Unknown country strings normalize to null (rejected, not guessed).
+united states: US
+usa: US
+us: US
+united states of america: US
+america: US
+united kingdom: GB
+uk: GB
+gb: GB
+great britain: GB
+england: GB
+india: IN
+in: IN
+ind: IN
+canada: CA
+ca: CA
+can: CA
+germany: DE
+de: DE
+deu: DE
+france: FR
+fr: FR
+australia: AU
+au: AU
+singapore: SG
+sg: SG
+netherlands: NL
+nl: NL
+ireland: IE
+ie: IE

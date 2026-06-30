@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Ada Lovelace",
+    "emails": ["ada.lovelace@analytical.io"],
+    "phones": ["(415) 555-0100"],
+    "location": {"city": "San Francisco", "region": "CA", "country": "USA"},
+    "links": {
+      "linkedin": "https://linkedin.com/in/adalovelace",
+      "github": "https://github.com/ada-l"
+    },
+    "headline": "Principal Software Engineer",
+    "years_experience": 12,
+    "skills": ["Python", "C++", "Machine Learning"],
+    "experience": [
+      {
+        "company": "Analytical Engines",
+        "title": "Principal Engineer",
+        "start": "2018-03",
+        "end": "Present",
+        "summary": "Leads the inference platform team."
+      }
+    ],
+    "education": [
+      {"institution": "University of London", "degree": "BSc",
+       "field": "Mathematics", "end_year": 2009}
+    ]
+  },
+  {
+    "name": "Grace Hopper",
+    "emails": ["grace.hopper@navy.mil"],
+    "phones": ["+1 202-555-0199"],
+    "location": {"city": "Arlington", "region": "VA", "country": "United States"},
+    "skills": ["COBOL", "Go"]
+  }
+]

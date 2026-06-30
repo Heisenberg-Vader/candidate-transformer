@@ -1,0 +1,48 @@
+# Confidence-model knobs read at runtime by merge.py.
+# Nothing here is hard-coded in Python; tune the model by editing this file.
+
+# Source-trust hierarchy (ATS > CSV > GitHub > Notes). Values are the base
+# trust a field inherits from the source that won it -- the first multiplier
+# in: confidence = source_trust x corroboration_bonus x normalization_success.
+source_trust:
+  ats: 1.00
+  csv: 0.80
+  github: 0.60
+  notes: 0.40
+
+# Corroboration is evidence: a value seen in N independent sources earns a
+# bonus that can let two agreeing low-trust sources outrank one high-trust
+# source. Index 0 is unused (zero sources is impossible for a real value);
+# index 1 = single source (no bonus); 2+ = multi-source agreement.
+corroboration_bonus:
+  - 0.00   # 0 sources (placeholder, never used)
+  - 1.00   # 1 source
+  - 1.25   # 2 agreeing sources
+  - 1.40   # 3+ agreeing sources
+
+# How much a value is trusted by whether it survived normalization. A phone
+# that became valid E.164 is more reliable than one we had to keep raw.
+normalization_success:
+  normalized: 1.00   # value matched a canonical format
+  raw: 0.80          # value kept verbatim (e.g. unknown skill, free-text)
+
+# overall_confidence is a weighted average of present field confidences.
+# Core identifying fields dominate so identity outranks peripheral skills.
+# A core field that is entirely MISSING still counts in the denominator
+# (as zero) so an unidentifiable profile cannot score high.
+overall_confidence_weights:
+  full_name: 3.0
+  emails: 3.0
+  phones: 3.0
+  location: 1.0
+  headline: 0.5
+  years_experience: 0.5
+  skills: 1.0
+  experience: 1.0
+  education: 1.0
+
+# Fields that must be penalized when absent (kept in the denominator).
+overall_confidence_required_fields:
+  - full_name
+  - emails
+  - phones

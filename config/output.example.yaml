@@ -1,0 +1,26 @@
+# Example runtime output config: a compact recruiter-facing view.
+# It selects a subset of canonical fields, renames each from its canonical
+# path, and sets how missing values are handled. Validated before the run.
+
+# Default policy for a missing value: null | omit | error. Per-field 'missing'
+# overrides this.
+missing: omit
+
+fields:
+  - path: candidate_id
+    as: id
+  - path: full_name
+    as: name
+  - path: emails[0]
+    as: primary_email
+    missing: null            # always present the key, even if empty
+  - path: phones[0]
+    as: primary_phone
+  - path: location.country
+    as: country
+  - path: links.github
+    as: github
+  - path: skills[].name      # flatten skills to a plain string[]
+    as: skills
+  - path: overall_confidence
+    as: confidence

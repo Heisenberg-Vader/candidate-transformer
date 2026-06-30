@@ -1,0 +1,16 @@
+[
+  {
+    "login": "ada-l",
+    "html_url": "https://github.com/ada-l",
+    "blog": "https://adalovelace.dev",
+    "bio": "Building reliable ML systems.",
+    "languages": ["Python", "Rust", "C++"]
+  },
+  {
+    "login": "aturing",
+    "html_url": "https://github.com/aturing",
+    "blog": "",
+    "bio": "Cryptography and theory of computation.",
+    "languages": ["Go", "Haskell", "TypeScript"]
+  }
+]

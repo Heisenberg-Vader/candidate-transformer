@@ -1,0 +1,6 @@
+Name: Alan Turing
+Spoke with Alan today. Strong candidate. Reach him at
+alan.turing@bletchley.uk or on +44 20 7946 0958.
+His code is at https://github.com/aturing and he mentioned
+extensive work in TypeScript lately.
+Skills: TypeScript, golang, Cryptography

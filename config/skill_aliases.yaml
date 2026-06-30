@@ -1,0 +1,36 @@
+# Skill canonicalization table read at runtime by normalize.py.
+# Key   = canonical skill name emitted in the profile.
+# Value = list of case-insensitive aliases that map to that canonical name.
+# Unknown skills are never dropped: they pass through verbatim (raw), only
+# losing the "normalized" confidence bonus.
+javascript:
+  - js
+  - ecmascript
+  - node.js
+  - nodejs
+  - node
+typescript:
+  - ts
+python:
+  - py
+  - python3
+"c++":
+  - cpp
+  - cplusplus
+"c#":
+  - csharp
+  - "c sharp"
+go:
+  - golang
+postgresql:
+  - postgres
+  - psql
+kubernetes:
+  - k8s
+amazon web services:
+  - aws
+machine learning:
+  - ml
+react:
+  - react.js
+  - reactjs
