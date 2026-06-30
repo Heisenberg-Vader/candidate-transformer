@@ -74,7 +74,7 @@ renamed schema defined by `config/output.example.yaml`.
 
 The suite covers normalization, entity resolution, conflict resolution, and
 projection, and includes edge-case tests — notably the ghost-candidate
-quarantine and the malformed-source case (graceful degradation). All tests
+quarantine and the malformed-source case (graceful degradation). All 78 tests
 should pass.
 
 ## Pipeline
