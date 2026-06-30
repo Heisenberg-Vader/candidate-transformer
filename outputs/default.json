@@ -1,0 +1,766 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "cand_87df9945be9f",
+      "full_name": "Grace Hopper",
+      "emails": [
+        "grace.hopper@navy.mil"
+      ],
+      "phones": [
+        "+12025550199"
+      ],
+      "location": {
+        "city": "Arlington",
+        "region": "VA",
+        "country": "US"
+      },
+      "links": {
+        "linkedin": null,
+        "github": null,
+        "portfolio": null,
+        "other": []
+      },
+      "headline": "Rear Admiral",
+      "years_experience": 20.0,
+      "skills": [
+        {
+          "name": "COBOL",
+          "confidence": 1.0,
+          "sources": [
+            "ats",
+            "csv"
+          ]
+        },
+        {
+          "name": "go",
+          "confidence": 1.0,
+          "sources": [
+            "ats"
+          ]
+        }
+      ],
+      "experience": [],
+      "education": [],
+      "provenance": [
+        {
+          "field": "full_name",
+          "value": "Grace Hopper",
+          "source": "ats",
+          "method": "ats:full_name",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "full_name",
+          "value": "Grace Hopper",
+          "source": "csv",
+          "method": "csv:full_name",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.city",
+          "value": "Arlington",
+          "source": "ats",
+          "method": "ats:location.city",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.city",
+          "value": "Arlington",
+          "source": "csv",
+          "method": "csv:location.city",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.region",
+          "value": "VA",
+          "source": "ats",
+          "method": "ats:location.region",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.country",
+          "value": "US",
+          "source": "ats",
+          "method": "ats:location.country",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.country",
+          "value": "US",
+          "source": "csv",
+          "method": "csv:location.country",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "headline",
+          "value": "Rear Admiral",
+          "source": "csv",
+          "method": "csv:headline",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "years_experience",
+          "value": 20.0,
+          "source": "csv",
+          "method": "csv:years_experience",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "emails",
+          "value": "grace.hopper@navy.mil",
+          "source": "ats",
+          "method": "ats:emails",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "emails",
+          "value": "grace.hopper@navy.mil",
+          "source": "csv",
+          "method": "csv:emails",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "phones",
+          "value": "+12025550199",
+          "source": "ats",
+          "method": "ats:phones",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "COBOL",
+          "source": "ats",
+          "method": "ats:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "COBOL",
+          "source": "csv",
+          "method": "csv:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "go",
+          "source": "ats",
+          "method": "ats:skills",
+          "confidence": 1.0,
+          "won": true
+        }
+      ],
+      "overall_confidence": 0.9833
+    },
+    {
+      "candidate_id": "cand_c0688a5b9bf8",
+      "full_name": "Alan Turing",
+      "emails": [
+        "alan.turing@bletchley.uk"
+      ],
+      "phones": [
+        "+442079460958"
+      ],
+      "location": {
+        "city": "London",
+        "region": null,
+        "country": "GB"
+      },
+      "links": {
+        "linkedin": null,
+        "github": "https://github.com/aturing",
+        "portfolio": null,
+        "other": []
+      },
+      "headline": "Cryptanalyst",
+      "years_experience": 15.0,
+      "skills": [
+        {
+          "name": "Cryptography",
+          "confidence": 0.32,
+          "sources": [
+            "notes"
+          ]
+        },
+        {
+          "name": "Haskell",
+          "confidence": 0.48,
+          "sources": [
+            "github"
+          ]
+        },
+        {
+          "name": "go",
+          "confidence": 1.0,
+          "sources": [
+            "csv",
+            "notes",
+            "github"
+          ]
+        },
+        {
+          "name": "python",
+          "confidence": 0.8,
+          "sources": [
+            "csv"
+          ]
+        },
+        {
+          "name": "typescript",
+          "confidence": 0.75,
+          "sources": [
+            "notes",
+            "github"
+          ]
+        }
+      ],
+      "experience": [],
+      "education": [],
+      "provenance": [
+        {
+          "field": "full_name",
+          "value": "Alan Turing",
+          "source": "csv",
+          "method": "csv:full_name",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "full_name",
+          "value": "Alan Turing",
+          "source": "notes",
+          "method": "notes:full_name",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.city",
+          "value": "London",
+          "source": "csv",
+          "method": "csv:location.city",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "location.country",
+          "value": "GB",
+          "source": "csv",
+          "method": "csv:location.country",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "links.github",
+          "value": "https://github.com/aturing",
+          "source": "notes",
+          "method": "notes:links.github",
+          "confidence": 0.75,
+          "won": true
+        },
+        {
+          "field": "links.github",
+          "value": "https://github.com/aturing",
+          "source": "github",
+          "method": "github:links.github",
+          "confidence": 0.75,
+          "won": true
+        },
+        {
+          "field": "headline",
+          "value": "Cryptanalyst",
+          "source": "csv",
+          "method": "csv:headline",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "headline",
+          "value": "Cryptography and theory of computation.",
+          "source": "github",
+          "method": "github:headline",
+          "confidence": 0.6,
+          "won": false
+        },
+        {
+          "field": "years_experience",
+          "value": 15.0,
+          "source": "csv",
+          "method": "csv:years_experience",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "emails",
+          "value": "alan.turing@bletchley.uk",
+          "source": "csv",
+          "method": "csv:emails",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "emails",
+          "value": "alan.turing@bletchley.uk",
+          "source": "notes",
+          "method": "notes:emails",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "phones",
+          "value": "+442079460958",
+          "source": "csv",
+          "method": "csv:phones",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "phones",
+          "value": "+442079460958",
+          "source": "notes",
+          "method": "notes:phones",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "Cryptography",
+          "source": "notes",
+          "method": "notes:skills",
+          "confidence": 0.32,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "Haskell",
+          "source": "github",
+          "method": "github:skills",
+          "confidence": 0.48,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "go",
+          "source": "csv",
+          "method": "csv:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "go",
+          "source": "notes",
+          "method": "notes:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "go",
+          "source": "github",
+          "method": "github:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "python",
+          "source": "csv",
+          "method": "csv:skills",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "typescript",
+          "source": "notes",
+          "method": "notes:skills",
+          "confidence": 0.75,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "typescript",
+          "source": "github",
+          "method": "github:skills",
+          "confidence": 0.75,
+          "won": true
+        }
+      ],
+      "overall_confidence": 0.9667
+    },
+    {
+      "candidate_id": "cand_eee82b27dbb7",
+      "full_name": "Ada Lovelace",
+      "emails": [
+        "ada.lovelace@analytical.io"
+      ],
+      "phones": [
+        "+14155550100"
+      ],
+      "location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US"
+      },
+      "links": {
+        "linkedin": "https://linkedin.com/in/adalovelace",
+        "github": "https://github.com/ada-l",
+        "portfolio": "https://adalovelace.dev",
+        "other": []
+      },
+      "headline": "Principal Software Engineer",
+      "years_experience": 12.0,
+      "skills": [
+        {
+          "name": "Rust",
+          "confidence": 0.48,
+          "sources": [
+            "github"
+          ]
+        },
+        {
+          "name": "c++",
+          "confidence": 1.0,
+          "sources": [
+            "ats",
+            "github"
+          ]
+        },
+        {
+          "name": "javascript",
+          "confidence": 0.8,
+          "sources": [
+            "csv"
+          ]
+        },
+        {
+          "name": "kubernetes",
+          "confidence": 0.8,
+          "sources": [
+            "csv"
+          ]
+        },
+        {
+          "name": "machine learning",
+          "confidence": 1.0,
+          "sources": [
+            "ats"
+          ]
+        },
+        {
+          "name": "python",
+          "confidence": 1.0,
+          "sources": [
+            "ats",
+            "csv",
+            "github"
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Analytical Engines",
+          "title": "Principal Engineer",
+          "start": "2018-03",
+          "end": null,
+          "summary": "Leads the inference platform team."
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of London",
+          "degree": "BSc",
+          "field": "Mathematics",
+          "end_year": 2009
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "value": "Ada Lovelace",
+          "source": "ats",
+          "method": "ats:full_name",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "full_name",
+          "value": "Ada Lovelace",
+          "source": "csv",
+          "method": "csv:full_name",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.city",
+          "value": "San Francisco",
+          "source": "ats",
+          "method": "ats:location.city",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.city",
+          "value": "San Francisco",
+          "source": "csv",
+          "method": "csv:location.city",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.region",
+          "value": "CA",
+          "source": "ats",
+          "method": "ats:location.region",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.country",
+          "value": "US",
+          "source": "ats",
+          "method": "ats:location.country",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "location.country",
+          "value": "US",
+          "source": "csv",
+          "method": "csv:location.country",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "links.linkedin",
+          "value": "https://linkedin.com/in/adalovelace",
+          "source": "ats",
+          "method": "ats:links.linkedin",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "links.github",
+          "value": "https://github.com/ada-l",
+          "source": "ats",
+          "method": "ats:links.github",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "links.github",
+          "value": "https://github.com/ada-l",
+          "source": "github",
+          "method": "github:links.github",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "links.portfolio",
+          "value": "https://adalovelace.dev",
+          "source": "github",
+          "method": "github:links.portfolio",
+          "confidence": 0.6,
+          "won": true
+        },
+        {
+          "field": "headline",
+          "value": "Principal Software Engineer",
+          "source": "ats",
+          "method": "ats:headline",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "headline",
+          "value": "Staff Engineer",
+          "source": "csv",
+          "method": "csv:headline",
+          "confidence": 0.8,
+          "won": false
+        },
+        {
+          "field": "headline",
+          "value": "Building reliable ML systems.",
+          "source": "github",
+          "method": "github:headline",
+          "confidence": 0.6,
+          "won": false
+        },
+        {
+          "field": "years_experience",
+          "value": 12.0,
+          "source": "ats",
+          "method": "ats:years_experience",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "years_experience",
+          "value": 12.0,
+          "source": "csv",
+          "method": "csv:years_experience",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "emails",
+          "value": "ada.lovelace@analytical.io",
+          "source": "ats",
+          "method": "ats:emails",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "emails",
+          "value": "ada.lovelace@analytical.io",
+          "source": "csv",
+          "method": "csv:emails",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "phones",
+          "value": "+14155550100",
+          "source": "ats",
+          "method": "ats:phones",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "phones",
+          "value": "+14155550100",
+          "source": "csv",
+          "method": "csv:phones",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "Rust",
+          "source": "github",
+          "method": "github:skills",
+          "confidence": 0.48,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "c++",
+          "source": "ats",
+          "method": "ats:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "c++",
+          "source": "github",
+          "method": "github:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "javascript",
+          "source": "csv",
+          "method": "csv:skills",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "kubernetes",
+          "source": "csv",
+          "method": "csv:skills",
+          "confidence": 0.8,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "machine learning",
+          "source": "ats",
+          "method": "ats:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "python",
+          "source": "ats",
+          "method": "ats:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "python",
+          "source": "csv",
+          "method": "csv:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "skills",
+          "value": "python",
+          "source": "github",
+          "method": "github:skills",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "experience",
+          "value": {
+            "company": "Analytical Engines",
+            "title": "Principal Engineer",
+            "start": "2018-03",
+            "end": null,
+            "summary": "Leads the inference platform team."
+          },
+          "source": "ats",
+          "method": "ats:experience",
+          "confidence": 1.0,
+          "won": true
+        },
+        {
+          "field": "education",
+          "value": {
+            "institution": "University of London",
+            "degree": "BSc",
+            "field": "Mathematics",
+            "end_year": 2009
+          },
+          "source": "ats",
+          "method": "ats:education",
+          "confidence": 1.0,
+          "won": true
+        }
+      ],
+      "overall_confidence": 1.0
+    }
+  ],
+  "quarantined": [
+    {
+      "source": "notes",
+      "reason": "no strong identity key (email/phone)",
+      "observed": {
+        "full_name": "Unknown Walk-in"
+      }
+    }
+  ],
+  "warnings": [
+    "csv: rejected invalid phone: 'not-a-number'"
+  ]
+}

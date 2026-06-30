@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "id": "cand_87df9945be9f",
+      "name": "Grace Hopper",
+      "primary_email": "grace.hopper@navy.mil",
+      "primary_phone": "+12025550199",
+      "country": "US",
+      "skills": [
+        "COBOL",
+        "go"
+      ],
+      "confidence": 0.9833
+    },
+    {
+      "id": "cand_e1e91cff2df7",
+      "name": "Alan Turing",
+      "primary_email": "alan.turing@bletchley.uk",
+      "primary_phone": "+442079460958",
+      "country": "GB",
+      "skills": [
+        "go",
+        "python"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "cand_eee82b27dbb7",
+      "name": "Ada Lovelace",
+      "primary_email": "ada.lovelace@analytical.io",
+      "primary_phone": "+14155550100",
+      "country": "US",
+      "github": "https://github.com/ada-l",
+      "skills": [
+        "c++",
+        "javascript",
+        "kubernetes",
+        "machine learning",
+        "python"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "quarantined": [],
+  "warnings": [
+    "csv: rejected invalid phone: 'not-a-number'"
+  ]
+}
